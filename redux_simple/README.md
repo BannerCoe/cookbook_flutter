@@ -1,8 +1,6 @@
-# redux_simple
+###### Redux Simple 
 
-A new Flutter project.
+This is the redux flutter simple from [Dart Packages][1]
 
-## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+[1] : https://pub.dartlang.org/packages/flutter_redux#-readme-tab-
