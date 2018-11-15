@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import 'package:redux_todo/models/app_state.dart';
+import 'package:redux_todo/presentation/home_screen.dart';
 import 'package:redux_todo/reducers/app_state_reducer.dart';
+import 'package:redux_todo/routes/route.dart';
 
 void main() => runApp(MyToDoApp());
 
@@ -19,9 +21,11 @@ class MyToDoApp extends StatelessWidget{
       store: store,
       child: MaterialApp(
         title: "Todo",
-        home: new Scaffold(
-          body: new Center(),
-        ),
+        routes: {
+          ArchSampleRoutes.home: (context){
+            return  HomeScreen();
+          }
+        },
       ),
     );
   }
