@@ -1,9 +1,12 @@
 import 'package:meta/meta.dart';
+import 'package:redux_todo/models/app_tab.dart';
 
 @immutable
-class AppState{
+class AppState {
   final bool isLoading;
-  AppState({this.isLoading = false});
-    
-    factory AppState.loading() => AppState(isLoading: true);
+
+  final AppTab activeTab;
+  AppState({this.isLoading = false, this.activeTab = AppTab.todo});
+
+  factory AppState.loading() => AppState(isLoading: true);
 }
