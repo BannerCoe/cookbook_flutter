@@ -9,3 +9,4 @@ Includeing..
 - [X] [Fade a Widget in and out
 ](https://github.com/brianegan/flutter_architecture_samples/tree/master/example/redux)
 - [ ] [ReduxTodo](https://github.com/brianegan/flutter_architecture_samples/tree/master/example/redux) (in progess..)
+- [ ][Introduction to Redux in Flutter](https://blog.novoda.com/introduction-to-redux-in-flutter/)(in progress..)
